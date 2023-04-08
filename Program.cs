@@ -36,6 +36,33 @@
 // 44, 5, 78 -> 78
 // 22, 3, 9 -> 22
 
+Console.WriteLine("Введите первое число арабскими цифрами:");
+int number1  = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите второе число арабскими цифрами:");
+int number2  = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите третье число арабскими цифрами:");
+int number3  = Convert.ToInt32(Console.ReadLine());
+
+int max = 0;
+
+if(number1 >= number2)
+{
+  max = number1;
+}
+else if(number2 >= number3)
+{
+   max = number2;
+}
+else
+{
+  max = number3;
+}
+
+Console.Write("Большее число:");
+Console.WriteLine(max);
+
 
 // Task 6. Напишите программу, которая на вход принимает
 // число и выдает, является ли число четным (делится ли 
