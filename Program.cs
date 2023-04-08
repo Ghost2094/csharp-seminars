@@ -4,7 +4,30 @@
 // a = 2; b = 10 -> max = 10
 // a = -9; b = -3 -> max = -3
 
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("Введите первое число арабскими цифрами:");
+// int number1  = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine("Введите второе число арабскими цифрами:");
+// int number2  = Convert.ToInt32(Console.ReadLine());
+
+// if(number1 > number2)
+// {
+//   Console.Write("Большее число:");
+//   Console.WriteLine(number1);
+//   Console.Write("Меньшее число:");
+//   Console.WriteLine(number2);
+// }
+// else if(number1 < number2)
+// {
+//   Console.Write("Большее число:");
+//   Console.WriteLine(number2);
+//   Console.Write("Меньшее число:");
+//   Console.WriteLine(number1);
+// }
+// else
+// {
+//   Console.WriteLine("Вы ввели одинаковые числа! Они равны!");
+// }
 
 
 // Task 4. Напишите программу, которая принимает на вход 
