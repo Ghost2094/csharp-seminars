@@ -71,27 +71,58 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.WriteLine("Введите число арабскими цифрами:");
-int number  = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число арабскими цифрами:");
+// int number  = Convert.ToInt32(Console.ReadLine());
 
-int a = 0;
+// int a = 0;
 
-if(a >= number)
-{
-  Console.WriteLine("Вы ввели отрицательное число! Попробуйте еще раз!");
-}
-else if(a == number % 2)
-{
-  Console.Write(number);
-  Console.WriteLine(" четное число.");
-}
-else
-{
-  Console.Write(number);
-  Console.WriteLine(" нечетное число.");
-}
+// if(a >= number)
+// {
+//   Console.WriteLine("Вы ввели отрицательное число! Попробуйте еще раз!");
+// }
+// else if(a == number % 2)
+// {
+//   Console.Write(number);
+//   Console.WriteLine(" четное число.");
+// }
+// else
+// {
+//   Console.Write(number);
+//   Console.WriteLine(" нечетное число.");
+// }
 
 // Task 8. Напишите программу, которая на вход принимает
 // число (N), а на выходе показывает все четные числа от 1 до N
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+Console.Write("Введите число от 1 и больше арабскими цифрами: ");
+int number  = Convert.ToInt32(Console.ReadLine());
+
+int baseNumber = 0;
+int diff = baseNumber;
+
+if(baseNumber >= number)
+{
+  Console.WriteLine("Вы ввели некорректное число! Попробуйте еще раз.");
+}
+else if(baseNumber == number % 2)
+{
+  diff += 2;
+  while(diff < number)
+  {
+    if(diff == number)
+    {
+      Console.WriteLine("End");
+    }
+    else
+    {
+     Console.WriteLine(diff);
+     diff += 2;
+    }
+  }
+}
+else
+{
+  Console.WriteLine("Вы ввели нечетное число! Попробуйте еще раз.");
+}
