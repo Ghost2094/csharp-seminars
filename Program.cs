@@ -96,33 +96,33 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.Write("Введите число от 1 и больше арабскими цифрами: ");
-int number  = Convert.ToInt32(Console.ReadLine());
-
-int baseNumber = 0;
-int diff = baseNumber;
-
-if(baseNumber >= number)
-{
-  Console.WriteLine("Вы ввели некорректное число! Попробуйте еще раз.");
-}
-else if(baseNumber == number % 2)
-{
-  diff += 2;
-  while(diff < number)
-  {
-    if(diff == number)
-    {
-      Console.WriteLine("End");
-    }
-    else
-    {
-     Console.WriteLine(diff);
-     diff += 2;
-    }
-  }
-}
-else
-{
-  Console.WriteLine("Вы ввели нечетное число! Попробуйте еще раз.");
-}
+// Console.Write("Введите число от 1 и больше арабскими цифрами: ");
+// int number  = Convert.ToInt32(Console.ReadLine());
+// 
+// int baseNumber = 0;
+// int diff = baseNumber;
+// 
+// if(baseNumber >= number)
+// {
+//   Console.WriteLine("Вы ввели некорректное число! Попробуйте еще раз.");
+// }
+// else if(baseNumber == number % 2)
+// {
+//   diff += 2;
+//   while(diff < number)
+//   {
+//     if(diff == number)
+//     {
+//       Console.WriteLine("End");
+//     }
+//     else
+//     {
+//      Console.WriteLine(diff);
+//      diff += 2;
+//     }
+//   }
+// }
+// else
+// {
+//   Console.WriteLine("Вы ввели нечетное число! Попробуйте еще раз.");
+// }
